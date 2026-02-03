@@ -1,0 +1,18 @@
+# put your configuration values here
+
+[runtime]
+log_level="WARNING"  # the system log level of dlt
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/reference/telemetry
+dlthub_telemetry = true
+
+[load]
+# Truncate staging dataset tables after successful load (default is false)
+#truncate_staging_dataset = false
+
+[destination.snowflake]
+# Set to false to keep full history of staging files in S3 (default is true which truncates old files)
+truncate_tables_on_staging_destination_before_load = true
+
+# Controls internal Snowflake stage files (not S3)
+keep_staged_files = true  # False - Delete internal stage files after load
+

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.log
+.git/
+.gitignore
+*.md
+.DS_Store
+STAGING_REPORT.md
+github_pipeline.py
+github_pipeline_rest_api.py
+pipeline_with_staging.py
+cleanup_s3_staging.py
+view_s3_staging.py
