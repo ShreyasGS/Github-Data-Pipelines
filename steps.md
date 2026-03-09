@@ -470,7 +470,7 @@ snow connection test
 | Connection name | default                                |
 | Status          | OK                                     |
 | Account         | kgiotue-wn98412                        |
-| User            | SHREYASS                               |
+| User            | ********                               |
 +----------------------------------------------------------+
 ```
 
