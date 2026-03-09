@@ -438,7 +438,7 @@ mkdir -p ~/.snowflake
 # Create config file (use single quotes for password with special characters)
 cat > ~/.snowflake/config.toml << 'EOF'
 [connections.default]
-account = "kgiotue-wn98412"
+account = "***********"
 user = "*******"
 password = "your_password_here"
 role = "DLT_LOADER_ROLE"
