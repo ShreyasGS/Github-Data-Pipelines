@@ -439,7 +439,7 @@ mkdir -p ~/.snowflake
 cat > ~/.snowflake/config.toml << 'EOF'
 [connections.default]
 account = "kgiotue-wn98412"
-user = "SHREYASS"
+user = "*******"
 password = "your_password_here"
 role = "DLT_LOADER_ROLE"
 warehouse = "COMPUTE_WH"
